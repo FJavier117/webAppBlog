@@ -1,0 +1,51 @@
+Un servlet es una clase Java (hija de la clase HttpServlet) y corre en el servidor.
+Su nombre se deriva de la palabra applet.
+
+Un servlet da servicio a las peticiones de un navegador Web, es decir, recibe la petición,
+la procesa y devuelve la respuesta al navegador.
+
+Un servlet es una clase Java en la que se puede incrustar código HTML.
+Como los servlets están escritos en Java, son tan portables como cualquier aplicación Java,
+es decir, pueden funcionar sin necesidad de cambios en diferentes servidores.
+
+
+
+1. La comunicación entre el cliente y el servidor se lleva a cabo mediante
+el protocolo de comunicación HTTP el cual consta de peticiones (request)
+y respuestas (response).
+
+2. En este sentido los tipos de peticiones HTTP más usuales son: GET y POST, y sirven para pasar
+información (parámetros) del cliente al servidor.
+
+3. La petición GET se utiliza para solicitar datos que están en el servidor, por ejemplo, para
+   solicitar una página.
+
+4. Las peticiones GET se pueden guardar en el historial de navegación, se pueden indexar en los
+   buscadores, o agregar a enlaces favoritos. La información que se envía en el GET normalmente es una liga.
+   Get contiene mucho menos información que POST.
+
+5. La petición POST sirve para enviar información al servidor para que ésta sea procesada. Una
+   vez que se procesa, se envía en la respuesta al navegador alguna página con información.
+   El valor de los parámetros que proporcionó el usuario en una petición POST,
+   se encuentran dentro de un objeto llamado request.
+
+Scriptlets y expresiones en JSP
+Un scriptlet es un fragmento de código en Java que se incrusta en una página JSP.
+Para insertar un scriptlet en una JSP, se utiliza la siguiente sintaxis:
+
+<% código en Java %>
+
+Una expresión se utiliza para desplegar como texto, una variable Java.
+Para insertar una expresión en una JSP se usa la siguiente sintaxis:
+
+<%= nombreVariable %>
+Etiquetas adicionales y su uso
+
+<%@ %> Directiva
+Establece una condición para todas las JSP
+
+<%-- -- %> Comentario
+Comentario todo dentro se ignora
+
+<%! %> Declaración
+Para declarar variables y métodos en una JSP
