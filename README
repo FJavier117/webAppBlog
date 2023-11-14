@@ -1,5 +1,5 @@
-### Un servlet es una clase Java (hija de la clase HttpServlet) y corre en el servidor.
-Su nombre se deriva de la palabra applet.###
+Un servlet es una clase Java (hija de la clase HttpServlet) y corre en el servidor.
+Su nombre se deriva de la palabra applet.
 
 Un servlet da servicio a las peticiones de un navegador Web, es decir, recibe la petición,
 la procesa y devuelve la respuesta al navegador.
